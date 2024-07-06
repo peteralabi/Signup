@@ -1,0 +1,85 @@
+
+  
+  h2 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="phone"],
+  input[type="password"] {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  
+  button[type="submit"] {
+    background-color: red;
+    border: none;
+    padding: 12px 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: white;
+    width: 100%;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: lightcoral;
+  }
+
+  .lines{
+    position: relative;
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .lines:before{
+    content:" ";
+    height: 1px;
+    width: 180px;
+    background: gray;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }
+  
+  .lines:after{
+    content:" ";
+    height: 1px;
+    width: 180px;
+    background: gray;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
+
+  .signIn {
+    color: lightcoral;
+  }
+
+  h5 {
+    margin-bottom: 7px;
+  }
+
+  .google {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+  }
+
+  .facebook {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+  }

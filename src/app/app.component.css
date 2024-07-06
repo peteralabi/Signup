@@ -1,0 +1,13 @@
+
+
+div {
+    border-left: 3px solid lightcoral;
+    border-right: 3px solid lightcoral;
+    max-width: 75%;
+  }
+  .container {
+    background-color: white;
+    width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+  }
